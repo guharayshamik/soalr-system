@@ -20,7 +20,7 @@ jobs:
                 nodejs-version: [18, 20]
                 os: [ubuntu-latest, macos-latest]
                 exlcude:
-                    - nodejs-version: 18
+                    - nodejs-version: [18, 20]
                       os: macos-latest
         runs-on: ${{ matrix.os }}
         
